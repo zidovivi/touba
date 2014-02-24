@@ -1,0 +1,96 @@
+.logo {
+	background: url("../img/logo1.png") no-repeat; 	
+	width: 116px;
+	height: 44px;	
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 2%; 
+
+}
+h2 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.background-green{
+	background-color: #145C12 !important;
+}
+#link-btn{
+	background: #145C12;
+	/*border-color: black;	
+	padding: 0 0;*/
+	color: white;
+	/*border-radius: 7%;	
+	font-size: 20px;*/
+	margin-top: 18%;
+	
+}
+#link-btn-small{
+	background: #145C12;
+	color: white;
+	width: 50%;
+	display: inline-block;
+}
+.view-photo-touba{
+	background: url("../img/touba_clean.jpg") no-repeat;
+	width: auto;
+	height: 250px;
+	background-size: cover;
+	background-position: right;
+}
+.view-container-text{		
+	width: 45%;
+	background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+	/*background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+	color: white;	
+
+}
+.view-block-text{	
+	position: relative;	
+	padding: 2% 0% 0% 10%;
+	display: inline-block;
+	
+}
+.view-main-padding {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#link-donate-large{
+	background-color: #145C12;
+	color: white;
+	width: 100%;
+	height: 50px;
+	border-style: none;
+	font-size: 30px;	
+	text-decoration: none;	
+	display: inline-block;
+	text-align: center;
+}
+.mail-img {	
+	width: 20%;
+	float: left;	
+}
+.contact-text {	
+	width: 60%;
+	float: right;
+}
+
+.view-block-box{
+	padding: 15px;	
+	border-radius: 6px;
+	border-left: solid 1px;
+	border-top: solid 1px;
+	border-color: #E6EBE9 ;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+.text-green{
+	color: #145C12 !important;
+}
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />    
+        
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div data-role="page" id="home-page">
+
+            <div data-role="header" class="background-green" data-position="fixed">                
+                <div class="logo"></div>
+                <a id="link-btn" href="#donation-page" class="ui-btn-right" data-transition="slide" data-role="button">Donate</a>
+            </div><!-- /header -->
+            <div class="view-photo-touba">
+                <div class="view-container-text">
+                    <div class="view-block-text">
+                        <h4>Lorem ipsum</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                </div>
+            </div>
+            <a href="#donation-page" id="link-donate-large" data-transition="slide"><span>Click to donate</span></a>
+            <div role="main" class="ui-content">
+                <div style="text-align: center;">
+                    <h2 class="text-green">Ipsum et Consequant</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <hr width="90%" style="color: #E6EBE9">
+                </div>
+                <div>
+                    <div class="mail-img"><img src="img/email.png"></div>
+                    <div class="contact-text">
+                        <h2 class="text-green">Contact Us</h2>
+                        Dolor sit amet, consectetur adipisicing elit, sed do eiusmod                                             
+                    </div>
+                </div>
+            </div><!-- /content -->            
+        </div><!-- /page -->
+        <!-- Start of second page -->
+        <div data-role="page" id="donation-page">
+
+            <div data-role="header" class="background-green" data-position="fixed">                
+                <span class="logo"></span>
+                <a id="link-btn" href="#home-page" class="ui-btn-right" data-role="button"  data-icon="back" data-transition="slide">Home</a>                
+            </div><!-- /header -->
+
+            <div  role="main" class="ui-content">
+            	<div class="view-block-box">
+                    <h4 class="text-green">Pay with PayPal</h4>
+                    <form id="paypalform">
+                    	<div data-role="ui-field-contain">
+                    		<label for="amountpaypal">Amount (US Dollar)</label>
+                    		<input id="amountpaypal" type="number" min=1 value="10">
+                    	</div>
+                    	<div data-role="ui-field-contain">
+                    		<label for="nameoremail">Name or Email</label>
+                    		<input id="nameoremail" type="text">
+                    	</div>
+                    	<h5>After clicking this button you will be redirected to PayPal.</h5>
+                    	<input type="submit" id="paypalbtn" class="ui-btn ui-corner-all" value="Go to PayPal">
+                    </form>
+                    
+                </div>
+                
+                
+            </div><!-- /content -->            
+        </div><!-- /page -->
+       	<div data-role="page" id="summary-page">
+
+            <div data-role="header" class="background-green" data-position="fixed">                
+                <div class="logo"></div>
+                <a id="link-btn" href="#donation-page" class="ui-btn-right" data-transition="slide" data-role="button">Donate</a>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+                <div style="text-align: center;">
+	                
+	                <h2 class="text-green">Thank You For Your Contribution!</h2>
+	                <p id="summary-content"> </p>	
+	                <a id="link-btn-small" href="#home-page" class="ui-btn ui-corner-all">Return to Home</a>
+                </div>
+                
+            </div><!-- /content -->            
+        </div><!-- /page -->
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/PayPalMobilePGPlugin.js"></script>        
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/PayPalAndroidSDK-d5d0c252977cd54b5120de72a9c5d508.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/classes-79266ae9bdcdcce67ccf1e59e05594b5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

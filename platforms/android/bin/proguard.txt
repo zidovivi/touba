@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:17
+-keep class com.paypal.android.sdk.payments.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.paypal.android.sdk.payments.PayPalService { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.paypal.android.sdk.payments.PaymentActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.paypal.android.sdk.payments.PaymentConfirmActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:18
+-keep class com.paypal.android.sdk.payments.PaymentMethodActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class io.card.payment.CardIOActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class io.card.payment.DataEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:9
+-keep class sn.c4a.test.MonAppdetest { <init>(...); }
+
